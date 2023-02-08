@@ -60,7 +60,7 @@
                     <div class="col-12">
                       <label for="yourName" class="form-label">Name</label>
                       <input type="text" name="username" class="form-control" id="yourName" required>
-                      <div class="invalid-feedback">Please, enter your name!</div>
+                      <div class="invalid-feedback">Please enter a username.</div>
                     </div>
                     
                     <div class="col-12">
@@ -68,7 +68,7 @@
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
                         <input type="email" name="email" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Please choose a username.</div>
+                        <div class="invalid-feedback">Please enter a valid email!</div>
                       </div>
                     </div>
                     

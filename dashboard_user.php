@@ -38,8 +38,6 @@
 	if($_SESSION['level']==""){
 		header("location: index.php?pesan=gagal");
 	}
- 
-
   include "sql.php";
 
   $email = $_SESSION['email'];
